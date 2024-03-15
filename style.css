@@ -1,0 +1,101 @@
+#fondoretro {
+    background-image: url(img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'Retro';
+    src: url(font/RETROTECH.ttf) format(truetype); 
+}
+
+.titulo_index {
+    font-family: 'Retro';
+    color: white;
+    font-size: 52px;
+    text-align: center;   
+}
+
+.tabla {
+    width: 800PX;
+    height: 500PX;
+    margin: auto;
+    background-color: rgb(62, 59, 59);
+    border: 5px groove rgb(237, 175, 5);
+    border-radius: 10px;
+}
+
+tr td {
+    width: 40px;
+    height: 40px;
+    border: 5px groove gray;
+    border-radius: 5px;
+    background-color: rgb(62, 59, 59);
+    Border: 1px outset grey;
+    Border-radius: 2px;
+}
+
+.marcador {
+    font-family: 'Retro';
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+    border-bottom-color: white;
+}
+.texto-rojo {
+    color: red;
+    font-size: 40px;
+}
+
+.texto-blanco1 {
+    font-size: 32px;
+    margin-right: 50px;
+}
+
+.texto-blanco2 {
+    font-size: 32px;
+}
+
+.color1{
+    background-color: rgb(62, 59, 59);  
+}
+
+.color2{
+    background-color: rgb(239, 5, 5);   
+}
+
+.color3{
+    background-color: rgb(239, 216, 5);
+}
+
+.color4{
+    background-color: blue;
+}
+
+.color5{
+    background-color: violet;
+}
+
+.color6{
+    background-color: green;
+}
+
+.bordes {
+    border: none;
+}
+
+.barra {
+    width:40px; 
+}
+
+.bola{
+    border-radius: 100%;
+    border-color: white;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+}
